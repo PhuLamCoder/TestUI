@@ -1,0 +1,24 @@
+.wrapper {
+    margin-top: 200px;
+}
+
+.category {
+    margin: 16px 0;
+}
+
+.category-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.category-list::-webkit-scrollbar {
+    display: none;
+}
+
+.category-item {
+    flex-shrink: 0;
+    margin-right: 10px;
+}

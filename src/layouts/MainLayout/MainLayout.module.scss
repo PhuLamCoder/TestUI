@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    background-color: var(--background-color);
+}
+
+.main {
+    margin-left: var(--sidebar-width);
+    flex: 1;
+    display: flex;
+    max-width: 100%;
+
+    @media screen and (max-width: 739px) {
+        margin-left: 0;
+    }
+}
+
+.inner {
+    width: var(--inner-width);
+    margin: 0 auto;
+}
